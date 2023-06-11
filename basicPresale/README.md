@@ -9,9 +9,9 @@ This contract represents a token presale mechanism where users can buy a specifi
 
 - The contract uses ERC20 tokens.
 
-- The maximum number of tokens per wallet is defaulted to 30000 tokens.
+- The maximum number of tokens per wallet is defaulted to 10000 tokens.
 
-- The price of each tokens is calculated as how many tokens should equal to 1 Eth. Default value says 4000 $NOSE = 1 Eth => price per $NOSE = 0.00025 Eth.
+- The price of each tokens is calculated as how many tokens should equal to 1 Eth. Default value says 10000 $NOSE = 1 Eth => price per $NOSE = 0.0001 Eth.
 
 - price can be changeded by calling the adjustTokensPerEth function.
 
