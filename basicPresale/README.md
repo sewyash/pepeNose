@@ -47,7 +47,7 @@ The contract uses OpenZeppelin's (https://docs.openzeppelin.com/) ERC20 and Reen
 This contract doesn't handle more complex features like tiered pricing or a whitelist of participants. Be sure to audit your contracts thoroughly before deploying them and test them on testnet.
 
 ### Sources
-This contract is inspired from @yomi2dev 's https://github.com/yomi2dev/basicPresale . 
+This contract is inspired from @yomidev_ 's https://github.com/yomi2dev/basicPresale . 
 
 ### Licence
 MIT License.
