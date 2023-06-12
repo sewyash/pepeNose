@@ -1,15 +1,7 @@
 # Pepe's $NOSE
 ## Social exeriment on blockchain combining Game Theory Ponzunomics and power of Pepe
 
-Brave wanderer, you've ventured far and wide,
-To the secret lair where Lord Pepe II - The Clown resides.
-In his den, shadows and whispers play their part,
-Sharing tales of Riches, stirring the Greedful heart.
-
-From every corner, Sophisticated Actors heed the call,
-Racing to touch the Clown's $NOSE in his mystical hall.
-Touched by Greed and the promise of Gain,
-They seek Lord Pepe II - The Clown's Blessings, to attain.
+![LorePoster](https://github.com/sewyash/pepeNose/blob/main/metadata/lore_poster.png)
 
 [![NoseTouchButtonSmall](https://github.com/sewyash/pepeNose/blob/main/metadata/touchNOSE_small_button.png?raw=true)](https://pepenose.com)
 ##
