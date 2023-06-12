@@ -31,7 +31,7 @@
 | Team (**)      | 100,000   $NOSE |
 | Marketing (***)| 100,000   $NOSE |
 
-*Amount of LP tokens provided is subject to change as according to how many tokens sold in presale, extra tokens are burned to preserve ratio*
+*Amount of LP tokens provided is subject to change as according to how many tokens sold in presale, extra tokens are burned to preserve ratio - 90% of the ETH raised in the presale will be initially used to put up the LP and 10% will be reserved for overhead costs/deployment costs/running costs/ leftovers can be used to put up more LP at a later point.*
 
 (*) *200,000 tokens reserved for Airdrops is divided into different kinds of airdrops, not all tokens will be made available at launch, much will be used later down the line and in buy comps or burns.*
 
