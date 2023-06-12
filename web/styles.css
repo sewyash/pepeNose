@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(225,253,255,255);
+    font-family:'Black Mountain' , 'Jet Brains Mono Bold';
+}
+
+#header {
+    text-align: center;
+    font-size: 8em;
+    font-family:'Black Mountain';
+    position: top; /* Change to absolute, fixed, or sticky to change position */
+/* top, bottom, left, and right properties can be used to move the element when position is not 'static' */
+}
+
+body, #header {
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+#content {
+    text-align: center;
+    padding: 20px;
+}
+
+#nose {
+    width: 500px;
+    height: auto;
+    cursor: pointer;
+    margin-top: -6em;
+}
+
+#nose:hover {
+    content: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/lordpepe_clown_touched.png');
+}
+
+#referralAddress {
+    font-family: 'Jet Brains Mono Bold';
+    width: 300px;
+    text-align: center;
+}
+
+@font-face {
+    font-family:'Jet Brains Mono Light';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/JetBrainsMono-Light.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'Jet Brains Mono Bold';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'Black Mountain';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/blackMountain_font.woff2') format('woff2');
+    font-display: fallback;
+}
