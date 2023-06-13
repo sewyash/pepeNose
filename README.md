@@ -16,10 +16,10 @@
 - *"dev don't take any cut from the game, only way dev makes money from the game is if users use a default referral address."*
 - whenever someone touches Lord Pepe II - The Clown's Nose, the fees is divided into few parts: 
 
-| 80 % | To the Total Pot/Blessings |
+| 69 % | To the Total Pot/Blessings |
 | ---- | -------------------------- |
 | 10 % | Referral Address           |
-| 10 % | Burns $NOSE tokens         |
+| 21 % | Burns $NOSE tokens         |
 | 20   | Number of Blessed Winners  |
 | 69 $NOSE | Initial Price of touching the NOSE |
 ##
