@@ -10,16 +10,17 @@
 - to touch Lord Pepe II - The Clown's Nose, you need to pay a fee of 69 $NOSE.
 - fee increases by 69 $NOSE every hour.
 - whenever someone touches the Nose, timer for 1 hour resets, if no one touches the Nose for a whole hour, Game Ends.
-- anyone can touch Lord Pepe II - The Clown's Nose, in hopes of receiving a blessing, but only the Last 18 wanderers that touched the Nose, are worthy of his blessings!
+- anyone can touch Lord Pepe II - The Clown's Nose, in hopes of receiving a blessing, but only the Last 20 wanderers that touched the Nose, are worthy of his blessings!
 - worry not tho for our Lord has a big heart, you can choose to share you're address as referral to other brave wanderers.
 - each referral account gets credited with 10% of transaction fee for touching the Nose (players can't refer themselves, by default if no referral is used - sewyash.eth referral is used (dev's address).
+- *"dev don't take any cut from the game, only way dev makes money from the game is if users use a default referral address."*
 - whenever someone touches Lord Pepe II - The Clown's Nose, the fees is divided into few parts: 
 
 | 80 % | To the Total Pot/Blessings |
 | ---- | -------------------------- |
 | 10 % | Referral Address           |
 | 10 % | Burns $NOSE tokens         |
-| 18   | Number of Blessed Winners  |
+| 20   | Number of Blessed Winners  |
 | 69 $NOSE | Initial Price of touching the NOSE |
 ##
 ## Tokenomics
