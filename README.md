@@ -3,7 +3,7 @@
 
 ![LorePoster](https://github.com/sewyash/pepeNose/blob/main/metadata/lore_poster.png)
 
-[![NoseTouchButtonSmall](https://github.com/sewyash/pepeNose/blob/7643d346cc9bca636a13170a90cf7911b24d248a/metadata/touchNOSE_smolbutton.png)](https://pepenose.com)
+[![NoseTouchButtonSmall](https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/touchNOSE_smolbutton.png)](https://pepenose.com)
 ##
 
 ## Game Theory
