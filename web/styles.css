@@ -1,0 +1,297 @@
+body {
+    background-color: #f7ecdc;
+    font-family: 'Diphy';
+    color: #763b28;
+}
+
+#bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/transparent_nose_bg.png');
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+/*
+styling for laoding gif...
+*/
+#loading-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+#loading-container.visible {
+    display: flex;
+}
+#loading-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.1);
+    z-index: -1;
+}
+#loadingGif {
+    position: relative;
+    top: 333px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+}
+
+#approveButton, #walletButton {
+    font-family: 'Jet Brains Mono SemiBold';
+    background-color: #f5f4f0;
+    color: #763b28;
+    border: #d59b83;
+    border-style: solid;
+    border-width: 4.2px;
+    cursor: pointer;
+    padding: 4.2px 20px;
+    font-size: 1em;
+    border-radius: 6.9px;
+}
+
+#walletButton {
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    transform: translate(0, 0);
+    z-index: 9999;
+}
+
+#approveButton {
+    position: fixed;
+    top: 15px;
+    left: 25px;
+    transform: translate(0, 0);
+    z-index: 9999;
+}
+
+.glass-container {
+    width: 69%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(255, 255, 255, 0.069);
+    border-radius: 6.9px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    padding-bottom: 69px;
+}
+
+.glass-container::before {
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6.9px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.1);
+    z-index: -1;
+}
+
+.glass-container #header {
+    color: #763b28;
+    text-align: center;
+    font-size: 6.9em;
+    font-family:'Black Mountain';
+}
+
+.glass-container #content {
+    text-align: center;
+    padding: 50px;
+}
+
+body, #header {
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+#nose {
+    width: 420px;
+    height: auto;
+    cursor: pointer;
+    margin-top: -6em;
+}
+
+#nose:hover {
+    content: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/lordpepe_clown_touched.png');
+}
+
+
+/*referral box styling*/
+#referee {
+    font-family: 'Jet Brains Mono Bold';
+    width: 300px;
+    text-align: center;
+    border: 4.2px solid #d59b83;
+    background-color: #f5f4f0;
+    color: #763b28;
+    padding: 6.9px;
+    border-radius: 6.9px;
+}
+#referee::placeholder {
+    color: #763b28;
+    font-family: 'Jet Brains Mono Bold';
+}
+
+#lore_vid {
+    max-height: 690px;
+    display: block;
+    margin: 58px auto;
+    margin-top: 20px;
+}
+
+.customAlert {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.customAlert-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    font-family: 'Jet Brains Mono Bold';
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family:'Jet Brains Mono Light';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/JetBrainsMono-Light.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'Jet Brains Mono Bold';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'Jet Brains Mono Medium';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/JetBrainsMono-Medium.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'Jet Brains Mono SemiBold';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'Black Mountain';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/blackMountain_font.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'Diphy';
+    src: url('https://raw.githubusercontent.com/sewyash/pepeNose/main/metadata/fonts/Diphylleia-Regular.ttf') format('truetype');
+    font-display: fallback;
+}
+
+/*
+getElements styling
+*/
+.contractValue {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#touchPrice {
+    /* Styles specific to the touchPrice element */
+    color: #763b28;
+}
+
+#explosionTime {
+    /* Styles specific to the explosionTime element */
+    color: #763b28;
+}
+
+#totalPot {
+    /* Styles specific to the totalPot element */
+    color: #763b28;
+}
+
+#totalTouches {
+    /* Styles specific to the totalTouches element */
+    color: #763b28;
+}
+
+#totalPlayers {
+    /* Styles specific to the totalPlayers element */
+    color: #763b28;
+}
+
+/*
+socials and links
+*/
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+}
+.button {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 4.2px 20px;
+    background-color: #f5f4f0;
+    color: #763b28;
+    text-decoration: none;
+    border-radius: 4.2px;
+    font-family: 'Jet Brains Mono SemiBold';
+    font-size: 1em;
+    cursor: pointer;
+    border: 4.2px solid #d59b83;
+    border-radius: 6.9px;
+}
