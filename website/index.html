@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <title>Pepe's $NOSE</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+</head>
+<body>
+    <div id="bg-image"></div>
+    <button id="walletButton" onclick="toggleWalletConnection()">
+        <span id="walletText">Connect Wallet</span>
+        <span id="walletAddress"></span>
+    </button>
+    <button id="approveButton" class="btn btn-primary">
+        Approve Game
+        <br>Contract
+    </button>
+    <div class="glass-container">
+        <div id="content">
+            <h1 id="header">Lord Pepe II ~ The Clown</h1>
+            <img id="nose" src='./images/lordpepe_clown_base.png'>
+            <div id="touchPrice" class="contractValue"></div>
+            <div id="explosionTime" class="contractValue"></div>
+            <div id="totalPot" class="contractValue"></div>
+            <div id="totalTouches" class="contractValue"></div>
+            <div id="totalPlayers" class="contractValue"></div>
+            <input type="text" id="referee" placeholder="Enter Referral Wallet Addy [0x...]">
+        </div>
+        <video controls loop id="lore_vid">
+            <source src="./images/lore_vid.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div id="socials-container">
+            <a href="mailto:pepesnose@proton.me" class="button">MAIL</a>
+            <a href="https://github.com/sewyash/pepeNose" class="button">GITHUB</a>
+            <a href="https://twitter.com/pepesnose" class="button">TWITTER</a>
+            <a href="https://t.me/your-telegram" class="button">TELEGRAM</a>
+            <a href="https://your-contract-address" class="button">CONTRACT $NOSE</a>
+            <a href="https://your-contract-address" class="button">CONTRACT DAPP</a>
+            <a href="https://your-buy-link" class="button">Buy $NOSE</a>
+        </div>
+    </div>
+    <div id="customAlert" class="customAlert">
+        <div class="customAlert-content">
+            <span class="close">&times;</span>
+            <p id="customAlertText"></p>
+        </div>
+    </div>
+    <div id="loading-container">
+        <div style="position: relative; z-index: 1;">
+            <img id="loadingGif" <img src="./images/pepeclown_loading.gif"/>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
