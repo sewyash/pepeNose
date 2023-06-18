@@ -1,0 +1,193 @@
+body {
+    background-color: #f7ecdc;
+    font-family: 'Diphy';
+    color: #763b28;
+}
+
+#bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/transparent_nose_bg.png');
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#walletButton {
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    transform: translate(0, 0);
+    z-index: 9999;
+    font-family: 'Jet Brains Mono SemiBold';
+    background-color: #f5f4f0;
+    color: #763b28;
+    border: #d59b83;
+    border-style: solid;
+    cursor: pointer;
+    padding: 4.2px 20px;
+    font-size: 1em;
+    border-width: 0.2em;
+    border-radius: 4.2px;
+    
+}
+
+/*glasscontainer/blur*/
+.glass-container {
+    width: 69%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(255, 255, 255, 0.069);
+    border-radius: 6.9px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.glass-container::before {
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6.9px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*inside glasscontainer/above blur bg*/
+.glass-container #block1,#block2 {
+    color: #763b28;
+    font-size: 1.69em;
+    font-family:'Diphy';
+    font-weight: bold;
+}
+.glass-container #block1 {
+    text-align: left;
+    margin-right: auto;
+    padding-left: 69px;
+}
+.glass-container #block2 {
+    text-align: right;
+    margin-left: auto;
+    padding-right: 69px;
+}
+.glass-container #content {
+    text-align: center;
+    padding: 50px;
+}
+.glass-container #presale-info {
+    font-size: 20px;
+    text-align: center;
+}
+.glass-container #amount, #buyPresaleButton {
+    background-color: #f5f4f0;
+    color: #763b28;
+    border: #d59b83;
+    border-style: solid;
+    border-width: 0.2em;
+    border-radius: 4.2px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 1em;
+    
+}
+.glass-container #amount {
+    font-family: 'Jet Brains Mono Light';
+    width: 300px;
+    padding: 6.9px;
+    text-align: center;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -4.2px;
+    
+}
+.glass-container #buyPresaleButton {
+    font-family: 'Jet Brains Mono SemiBold';
+    padding: 6.9px 20px 6.9px 0; /*top,right,bottom,left*/
+    border-left: none;
+    text-align: left;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -4.2px;
+}
+.glass-container #amount::placeholder {
+    color: #763b28;
+    border: #d59b83;
+    font-family: 'Jet Brains Mono Light';
+}
+
+
+.glass-container #remainingTokens {
+    font-size: 20px;
+    color: #763b28;
+    text-align: center;
+    margin-top: 1.42em;
+}
+
+/*FONTS*/
+@font-face {
+    font-family:'Jet Brains Mono Light';
+    src: url('./fonts/JetBrainsMono-Light.woff2') format('woff2');
+    font-display: fallback;
+}
+@font-face {
+    font-family:'Jet Brains Mono Bold';
+    src: url('./fonts/JetBrainsMono-Bold.woff2') format('woff2');
+    font-display: fallback;
+}
+@font-face {
+    font-family:'Jet Brains Mono Medium';
+    src: url('./fonts/JetBrainsMono-Medium.woff2') format('woff2');
+    font-display: fallback;
+}
+@font-face {
+    font-family:'Jet Brains Mono SemiBold';
+    src: url('./fonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+    font-display: fallback;
+}
+@font-face {
+    font-family:'Black Mountain';
+    src: url('./fonts/blackMountain_font.woff2') format('woff2');
+    font-display: fallback;
+}
+@font-face {
+    font-family:'Diphy';
+    src: url('./fonts/Diphylleia-Regular.ttf') format('truetype');
+    font-display: fallback;
+}
+
+/*Socials and Links*/
+#socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.3em;
+    padding: 0 250px;
+    flex-wrap: wrap;
+}
+.button {
+    display: inline-block;
+    margin: 0.3em 1em;
+    padding: 0.3em 1em;
+    background-color: #f5f4f0;
+    color: #763b28;
+    text-decoration: none;
+    border-radius: 4.2px;
+    font-family: 'Jet Brains Mono SemiBold';
+    font-size: 1em;
+    cursor: pointer;
+    border: 0.2em solid #d59b83;
+    border-radius: 4.2px;
+}
