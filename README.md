@@ -43,9 +43,9 @@
 ## Contract Addresses
 | Chain         | Arbitrum |
 | ------------- | -------- |
-| Token - $NOSE | 0x315D2e4204Bbf5717dF7a7beD2a807540bbA02E3 |
+| Token - $NOSE | 0x521374130E9d4132c1b1E61453ba92F11647D493 |
 | Game Contract | 0x... |
-| Presale Contract | 0x |
+| Presale Contract | 0xb48D0d5c8284e5166d9B357C3E769782DC6766De |
 ##
 
 ## Contact Details/ Links
