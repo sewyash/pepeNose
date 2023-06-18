@@ -26,33 +26,34 @@
 ## Tokenomics
 | Total Supply   | 1,000,000 $NOSE |
 | -------------- | --------------- |
-| Presale        | 300,000   $NOSE |
-| LP             | 300,000   $NOSE | 
-| Promotionals - 69,000 initial airdrop (*)    | 200,000   $NOSE |
+| Presale        | 331,200   $NOSE |
+| LP             | 331,200   $NOSE | 
+| Promotionals - 47,610 initial airdrop (*)    | 137,600   $NOSE |
 | Team (**)      | 100,000   $NOSE |
-| Marketing (***)| 100,000   $NOSE |
+| Marketing/CEX (***)| 100,000   $NOSE |
 
 *Amount of LP tokens provided is subject to change as according to how many tokens sold in presale, extra tokens are burned to preserve ratio - 90% of the ETH raised in the presale will be initially used to put up the LP and 10% will be reserved for overhead costs/deployment costs/running costs/ leftovers can be used to put up more LP at a later point.*
 
-(*) *200,000 tokens reserved for Airdrops is divided into different kinds of airdrops, not all tokens will be made available at launch, much will be used later down the line and in buy comps or burns.*
+(*) *tokens reserved for Airdrops is divided into different kinds of airdrops, not all tokens will be made available at launch, much will be used later down the line and in buy comps or burns.*
 
-(**) *100,000 team tokens are divided between Dev - sewyash , Core Advisor and Guidance - yomidev_ , Advisors - xZ9th and sentience420 , Artists and any Moderator that helps manage comms.( usernames are from twitter )*
+(**) *100,000 team tokens are divided between Dev - sewyash , Core Advisor and Guidance - yomidev_ , Advisors - xZ9th, degenCT and sentience420 , Artists and any Moderator that helps manage comms.( usernames are from twitter )*
 (***) *100,000 marketting tokens shall be used for any activity that requires us to pay for services that directly/indirectly may benifit the lore of Lord Pepe II - The Clown (cex payment if needed shall also be convered with this wallet)*
 ##
 
 ## Contract Addresses
 | Chain         | Arbitrum |
 | ------------- | -------- |
-| Token - $NOSE | 0x... |
+| Token - $NOSE | 0x315D2e4204Bbf5717dF7a7beD2a807540bbA02E3 |
 | Game Contract | 0x... |
+| Presale Contract | 0x |
 ##
 
 ## Contact Details/ Links
 | Mail  | pepesnose@proton.me |
 | ----- | ------------------- |
-| Website | https://pepenose.com |
+| Website | https://pepenose.eth.link |
 | Twitter | [@pepesnose](https://twitter.com/pepesnose?s=21&t=agrz7AMdORJSvImYTFbRtA/) |
-| Telegram | |
+| Telegram | https://t.me/pepenose |
 
 
 ## Licensing
