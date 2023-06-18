@@ -64,11 +64,11 @@ styling for laoding gif...
     color: #763b28;
     border: #d59b83;
     border-style: solid;
-    border-width: 4.2px;
+    border-width: 0.2em;
     cursor: pointer;
     padding: 4.2px 20px;
     font-size: 1em;
-    border-radius: 6.9px;
+    border-radius: 4.2px;
 }
 
 #walletButton {
@@ -149,11 +149,11 @@ body, #header {
     font-family: 'Jet Brains Mono Bold';
     width: 300px;
     text-align: center;
-    border: 4.2px solid #d59b83;
+    border: 0.2em solid #d59b83;
     background-color: #f5f4f0;
     color: #763b28;
     padding: 6.9px;
-    border-radius: 6.9px;
+    border-radius: 4.2px;
 }
 #referee::placeholder {
     color: #763b28;
@@ -292,6 +292,6 @@ socials and links
     font-family: 'Jet Brains Mono SemiBold';
     font-size: 1em;
     cursor: pointer;
-    border: 4.2px solid #d59b83;
-    border-radius: 6.9px;
+    border: 0.2em solid #d59b83;
+    border-radius: 4.2px;
 }
