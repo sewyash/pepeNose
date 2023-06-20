@@ -308,25 +308,16 @@ socials and links
         background-color: #f5f4f0;
         backdrop-filter: none;
         border-style: solid;
-        border-width: 4.2px;
-        border: #d59b83;
+        border: 4.2px solid #d59b83;
         border-radius: 4.2px;
-        padding-top: 20px;
         padding-bottom: 20px;
+        margin: 50px;
     }
 
     .glass-container::before {
-        background-color: #f5f4f0;
-        backdrop-filter: none;
-        border-style: solid;
-        border-width: 4.2px;
-        border: #d59b83;
-        border-radius: 4.2px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        z-index: -1;
+        content:none;
     }
-    
+
     .glass-container #header {
         font-size: 3.3em;
         padding-top: 10px;
@@ -341,6 +332,6 @@ socials and links
   
     #socials-container .button {
         font-size: 1.4em;
-        padding: 0 20px;
+        padding: 0.3em 0.6empx;
     }
   }
