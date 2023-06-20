@@ -301,24 +301,34 @@ socials and links
 @media only screen and (max-device-width: 600px) {
     #approveButton,
     #walletButton {
-      font-size: 1.2em;
+        font-size: 1.4em;
     }
   
     .glass-container {
-      background-color: #f7ecdc;
-      backdrop-filter: none;
+        background-color: #f5f4f0;
+        backdrop-filter: none;
+        border-style: solid;
+        border-width: 4.2px;
+        border: #d59b83;
+        border-radius: 4.2px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
   
     .glass-container #header {
-      font-size: 3em;
+        font-size: 3.3em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
     }
   
     #referee {
-      font-size: 1.2em;
-      width: 400px;
+        font-size: 1.4em;
+        width: 400px;
     }
   
     #socials-container .button {
-      font-size: 1.2em;
+        font-size: 1.4em;
+        padding: 0 20px;
     }
   }
