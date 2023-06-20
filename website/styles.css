@@ -295,3 +295,30 @@ socials and links
     border-radius: 4.2px;
     margin-bottom: 10px;
 }
+
+
+/* Styles for mobile screens */
+@media only screen and (max-width: 375px) {
+    #approveButton,
+    #walletButton {
+      font-size: 1.2em;
+    }
+  
+    .glass-container {
+      background-color: #f7ecdc;
+      backdrop-filter: none;
+    }
+  
+    .glass-container #header {
+      font-size: 3em;
+    }
+  
+    #referee {
+      font-size: 1.2em;
+      width: 400px;
+    }
+  
+    #socials-container .button {
+      font-size: 1.2em;
+    }
+  }
