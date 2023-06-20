@@ -51,6 +51,7 @@
 | Presale Contract | 0xb48D0d5c8284e5166d9B357C3E769782DC6766De |
 | Deployer/Team | 0x8e2CF923A290046a7175aaF7919f7be5a86b9a7a - pepenose.eth |
 | Marketing Wallet | 0xDC1810133d74Fa053E7CE30637BF304eC7368292 - marketing.pepenose.eth |
+| Promo/Airdrops/Comps | 0x6bCa365c06c7E4D9628DFb132500c9dA1374b34c - drops.pepenose.eth |
 | Pot Fund | 0x76A27C8A360E2c84c8F8Bcf702BeC992af224a8c - potfund.pepenose.eth |
 ##
 
