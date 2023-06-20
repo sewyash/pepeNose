@@ -311,7 +311,7 @@ socials and links
         border: 4.2px solid #d59b83;
         border-radius: 4.2px;
         padding-bottom: 20px;
-        margin: 169px auto;
+        margin: 150px auto;
 
     }
 
@@ -324,6 +324,7 @@ socials and links
         font-size: 3.3em;
         padding-top: 10px;
         padding-bottom: 10px;
+        font-weight: lighter;
         
     }
   
@@ -340,7 +341,7 @@ socials and links
     #socials-container .button {
         font-size: 1.4em;
         padding: 0.3em 0.6empx;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     #nose {
