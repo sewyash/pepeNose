@@ -311,9 +311,8 @@ socials and links
         border: 4.2px solid #d59b83;
         border-radius: 4.2px;
         padding-bottom: 20px;
-        margin-top: 200px;
-        margin-bottom: 200px;
-        margin: auto;
+        margin: 200px auto;
+
     }
 
     .glass-container::before {
@@ -337,4 +336,10 @@ socials and links
         font-size: 1.4em;
         padding: 0.3em 0.6empx;
     }
-  }
+
+    #nose {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        margin-top: 0;
+    }
