@@ -350,3 +350,14 @@ socials and links
         cursor: pointer;
         margin-top: 0;
     }
+    .glass-container #content {
+        text-align: center;
+        padding: 50px;
+    }
+
+    #lore_vid {
+        max-height: 333px;
+        display: block;
+        margin: 20px auto;
+    }
+}
