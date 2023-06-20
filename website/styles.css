@@ -311,11 +311,14 @@ socials and links
         border: 4.2px solid #d59b83;
         border-radius: 4.2px;
         padding-bottom: 20px;
-        margin: 50px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin: auto;
     }
 
     .glass-container::before {
         content:none;
+        padding-bottom: 20px;
     }
 
     .glass-container #header {
